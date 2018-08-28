@@ -9,10 +9,25 @@ body {
   }
   
   .productCard {
-      background-color: grey;                                                 
+      background-color: lightskyblue;                                                 
       width: 31%;
       margin: 1%;
+      text-align: justify;
+      padding: 1px;
+      text-justify: inter-word;
+      box-shadow: 10px 10px;
+      outline: 1px solid lightblue;
+      text-indent; 3ch;
+  }
+
+  .productHeader {
+
+    background-color: black;                                                 
+      width: 100%;
+      margin: 0%;
       text-align: center;
+      outline: 1px solid lightblue;
+
   }
   
   .specs {
@@ -20,16 +35,33 @@ body {
     background-color: white;                                                 
       width: 100%;
       margin: 0%;
-      text-align: center;
+      text-align: left;
+      font-weight: bold;
+      text-indent: 3ch;
+
+  }
+
+  .avail {
+
+    background-color: grey;                                                 
+      width: 100%;
+      margin: 0%;
+      text-align: left;
+      text-indent: 3ch;
+      
 
   }
 
   .pricing {
 
-    background-color: grey;                                                 
+    background-color: white;                                                 
       width: 100%;
       margin: 0%;
-      text-align: center;
+      text-align: left;
+      font-weight: bold;
+      text-indent: 3ch;
+      
+      
 
   }
     
@@ -42,12 +74,33 @@ body {
       font-family: Arial, Helvetica, sans-serif;
       color: white;
   }
+
+  .header__specs {
+      
+  }
   
   h2 { 
       color: rgb(7, 65, 213);
   }
 
   h3 { 
-    color: rgb(7, 65, 213);
+    color:grey;
 }
   
+h4 { 
+    color: yellow;
+}
+
+
+.footer {
+
+    background-color: white;                                                 
+      width: 100%;
+      margin: 0%;
+      text-align: left;
+      text-indent: 3ch;
+      
+      
+      
+
+  }
