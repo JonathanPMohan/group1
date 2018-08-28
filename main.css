@@ -1,38 +1,62 @@
 body {
-    background-color: white;
+    background-color: grey;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #productContainer {
-    display: flex; 
-      flex-direction: row;
-      flex-wrap: wrap;
-  }
-  
-  .productCard {
-      background-color: lightskyblue;                                                 
-      width: 31%;
-      margin: 1%;
-      text-align: justify;
-      padding: 1px;
-      text-justify: inter-word;
-      box-shadow: 10px 10px;
-      outline: 1px solid lightblue;
-      text-indent; 3ch;
-  }
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navigation > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-  .productHeader {
+}
 
-    background-color: black;                                                 
+.navigation li {
+    list-style: none;
+    padding-left: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.productCard {
+    background-color: white;
+    width: 31%;
+    margin: 1%;
+
+    box-shadow: 10px 10px;
+    outline: 1px solid lightblue;
+    padding-left: 10px
+    padding-right: 10px;
+
+
+}
+
+
+.specsHeader {
+
+    background-color: white;
       width: 100%;
       margin: 0%;
-      text-align: center;
-      outline: 1px solid lightblue;
+      text-align: left;
+      font-weight: bold;
+      text-indent: 2ch;
 
   }
-  
-  .specs {
 
-    background-color: white;                                                 
+.specs {
+
+    background-color: white;
       width: 100%;
       margin: 0%;
       text-align: left;
@@ -41,66 +65,106 @@ body {
 
   }
 
-  .avail {
+  .pricingHeader {
 
-    background-color: grey;                                                 
-      width: 100%;
-      margin: 0%;
-      text-align: left;
-      text-indent: 3ch;
-      
+      background-color: white;
+        width: 100%;
+        margin: 0%;
+        text-align: left;
+        font-weight: bold;
+        text-indent: 2ch;
 
-  }
+    }
 
   .pricing {
 
-    background-color: white;                                                 
+    background-color: white;
       width: 100%;
       margin: 0%;
       text-align: left;
       font-weight: bold;
       text-indent: 3ch;
-      
-      
+
+
 
   }
-    
-  .image__productCard {
-      max-width: 100%;
-      
-  }
-  
-  .header__productCard {
-      font-family: Arial, Helvetica, sans-serif;
-      color: white;
-  }
 
-  .header__specs {
-      
-  }
-  
-  h2 { 
-      color: rgb(7, 65, 213);
-  }
-
-  h3 { 
-    color:grey;
-}
-  
-h4 { 
-    color: yellow;
+.image__productCard {
+    max-width: 98%;
+    image-orientation: center;
 }
 
+.header__productCard {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
 
-.footer {
+a {
+    color: greenyellow;
+}
 
-    background-color: white;                                                 
+.listItem__navigation  {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h3 {
+    color: grey;
+}
+
+
+.description {
+
+    background-color: white;
+      width: 93%;
+      margin: 2%;
+      padding-left: 5px;
+      padding-right: 5px;
+      text-align: justify;
+      text-justify: inter-word;
+
+
+  }
+
+
+.avail {
+
+    background-color: grey;
+      width: 100%;
+      margin: 0%;
+      text-align: left;
+      text-indent: 2ch;
+
+
+  }
+
+  .footer {
+
+    background-color: white;
       width: 100%;
       margin: 0%;
       text-align: left;
       text-indent: 3ch;
-      
-      
-      
+}
+
+
+h2 {
+      color: white;
+  }
+
+h4 {
+    color: yellow;
+}
+
+.productHeader {
+
+    background-color: black;
+      width: 100%;
+      margin: 0%;
+
+      text-align: center;
+
 
   }
