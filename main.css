@@ -62,6 +62,7 @@ body {
       text-align: left;
       font-weight: bold;
       text-indent: 3ch;
+      font-family: 'Roboto Condensed', sans-serif;
 
   }
 
@@ -84,6 +85,7 @@ body {
       text-align: left;
       font-weight: bold;
       text-indent: 3ch;
+      font-family: 'Roboto Condensed', sans-serif;
 
 
 
@@ -95,7 +97,7 @@ body {
 }
 
 .header__productCard {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: white;
 }
 
@@ -112,6 +114,7 @@ a {
 
 h3 {
     color: grey;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -124,6 +127,7 @@ h3 {
       padding-right: 5px;
       text-align: justify;
       text-justify: inter-word;
+      font-family: 'Roboto Condensed', sans-serif;
 
 
   }
@@ -147,15 +151,18 @@ h3 {
       margin: 0%;
       text-align: left;
       text-indent: 3ch;
+      font-family: 'Roboto Condensed', sans-serif;
 }
 
 
 h2 {
       color: white;
+      font-family: 'Roboto Condensed', sans-serif;
   }
 
 h4 {
     color: yellow;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .productHeader {
@@ -163,8 +170,8 @@ h4 {
     background-color: black;
       width: 100%;
       margin: 0%;
-
       text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
 
 
   }
