@@ -3,7 +3,7 @@
 This project is an exploration of our introduction to HTML/CSS. I built product card divs and placed images and info into the divs. 
 
 ## Screenshots
-![main screenshot](./screenshots/group1_productCards.png)
+![main screenshot](./screenshots/Group1_productCards.png)
 
 
 ## How to run this project
