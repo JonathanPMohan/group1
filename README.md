@@ -1,4 +1,4 @@
-# Group Project 1 (Product Cards)
+# Product Cards
 
 This project is an exploration of our introduction to HTML/CSS. I built product card divs and placed images and info into the divs. 
 
